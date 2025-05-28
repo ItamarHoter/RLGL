@@ -8,12 +8,12 @@ clicli mycli(myProject);
 
 void setup() {
   mycli.Begin();
-
+  myProject.Begin();
 
 }
 
 void loop() {
   mycli.Run();
-
+  myProject.Run();
 }
 
