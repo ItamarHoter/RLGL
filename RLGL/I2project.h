@@ -1,9 +1,4 @@
-/*                 ******************
-              Class for managing Button Interface
-              Featuring Interrupt requests
-                         
-                By: Gal Arbel 2023
-                **********************                                   */
+                              */
 #ifndef I2PROJECT_H
 #define I2PROJECT_H
 #include "I2project.h"
@@ -18,7 +13,6 @@ class I2Project {
     void colorGo(); 
     void getColor();
     void setAllPixels(int red, int green, int blue);
-    void NeoPrint();
   private:
     int _button;
 };
